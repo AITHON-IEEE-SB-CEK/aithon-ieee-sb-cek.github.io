@@ -24,6 +24,7 @@ header a {
   color: whitesmoke;
 }
 
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -83,12 +84,17 @@ header {
   background: var(--bggradient);
 }
 
-header .container .col-md-7 {
-  font-family: "Rubik", sans-serif;
+header .container .col-md-7 h1 {
+  font-family: "aquire", sans-serif;
 }
+header .container .col-md-7 h6{
+  font-family: "montsterat", sans-serif;
+}
+
 
 header .container .col-md-7 h6 {
   padding: 1vmin;
+ 
   letter-spacing: 4px;
 }
 
