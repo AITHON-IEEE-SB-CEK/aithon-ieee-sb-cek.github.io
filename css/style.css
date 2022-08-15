@@ -50,7 +50,7 @@ header a {
 }
 
 header .nav-item:last-child {
-  padding-right: 10.5em;
+  padding-right: 3rem;
 }
 
 header .nav-item {
@@ -58,7 +58,7 @@ header .nav-item {
 }
 
 header .navbar-brand {
-  padding-left: 8rem;
+  padding-left: 3rem;
 }
 
 header .nav-link:hover {
@@ -218,7 +218,7 @@ header .container .col-md-7 p {
 }
 
 .purchase > h1 {
-  padding-top: 15vmin;
+  padding-top: 6vmin;
   padding-bottom: 0.1em;
   font-family: var(--Lobster);
 }
@@ -226,7 +226,7 @@ header .container .col-md-7 p {
 .purchase > p {
   color: var(--light-black);
   font-size: 3vmin;
-  padding-bottom: 10vmin;
+  padding-bottom: 6vmin;
 }
 
 .purchase .cards .card {
