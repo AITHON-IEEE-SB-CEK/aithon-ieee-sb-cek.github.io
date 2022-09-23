@@ -272,10 +272,14 @@ header .container .col-md-7 p {
 footer {
   background: rgba(0, 0, 0, 0.815);
   overflow-x: hidden;
+<<<<<<< HEAD
   padding-top: 5vmin;
   padding-right: 3vmin;
   padding-left: 3vmin;
   padding-bottom: 3vmin;
+=======
+  padding: 14vmin 18vmin;
+>>>>>>> parent of 4644a42 (timeline,shecule)
 }
 
 footer p > span {
