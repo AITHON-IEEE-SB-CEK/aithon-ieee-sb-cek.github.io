@@ -14,7 +14,6 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2c2e2eaf;
-
   --bggradient: linear-gradient(to bottom, #000000, #40BEDE);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
@@ -80,14 +79,9 @@ header .row .col-md-5 img {
 }
 
 header {
-  /* background: #40BEDE; */
-  background: var(--bggradient),url(bg.gif);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #40BEDE;
   /* fallback for old browsers */
-  /* background: var(--bggradient); */
-  background-blend-mode: multiply;
+  background: var(--bggradient);
 }
 
 header .container .col-md-7 h1 {
