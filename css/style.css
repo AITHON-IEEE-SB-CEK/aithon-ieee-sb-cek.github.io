@@ -17,8 +17,101 @@ section {
   --bggradient: linear-gradient(to bottom, #000000, #40BEDE);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
+/*----Nav Bar-------*/
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
 
-header a {
+
+.navbar-links {
+  height: 100%;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar-links li a:hover {
+  color: #40BEDE;
+}
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.toggle-button .bar:active{
+  background-color: #40BEDE;
+}
+
+@media (max-width: 800px) {
+  .info{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .toggle-button {
+      margin-top: 1.4rem;
+      display: flex;
+  }
+
+  .navbar-links {
+      display: none;
+      width: 100%;
+  }
+
+  .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .navbar-links ul li {
+      text-align: right;
+  }
+
+  .navbar-links ul li a {
+      padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+      display: flex;
+  }
+}
+Footer
+/*header a {
   font-family: var(--Sniglet-font);
   font-size: 0.9em;
   color: whitesmoke;
@@ -63,7 +156,7 @@ header .navbar-brand {
 
 header .nav-link:hover {
   color: rgb(0, 241, 241);
-}
+}*/
 
 header .row .col-md-7 {
   padding: 22vmin 1vmin;
