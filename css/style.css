@@ -5,17 +5,17 @@
 @font-face {
   font-family: 'aquire';
   src: url("../fonts/aquire-font/Aquire-BW0ox.otf") format('opentype'),
-      
+
 }
 @font-face {
   font-family: 'Julietta Messie';
   src: url("../fonts/Juliette/Julietta-Messie.otf") format('opentype'),
-      
+
 }
 
 @font-face {
   font-family: 'ROG LyonsType';
-  src: url("../fonts/ROG/ROGLyonsTypeRegular3.ttf") format('truetype');       
+  src: url("../fonts/ROG/ROGLyonsTypeRegular3.ttf") format('truetype');
 }
 @font-face{
   font-family: 'Montserrat';;
@@ -105,7 +105,7 @@ section {
     position: absolute;
     top: 100%;
     left: 0;
-    
+
     z-index: 1;
   }
 
@@ -124,7 +124,7 @@ section {
 
   .navbar-links.active {
     display: flex;
-  
+
   }
   .navbar-links.active ul li {
     background-color: rgba(0, 0, 0, 0.8); /* Dark background for li elements */
@@ -187,7 +187,7 @@ header .row .col-md-7 {
 
 
 header {
-  
+
   background-image: url("../images/new bg.png");
   background-position: 0%;
   background-size: 90%;
@@ -271,7 +271,7 @@ header .row .col-md-7 {
 
 
   header .container .col-md-7 h3 {
-    
+
     font-weight: 500;
     padding-top:0;
   }
@@ -279,7 +279,7 @@ header .row .col-md-7 {
     font-weight: 500;
   }
   .mobileLanding{
-    
+
   }
 }
 
@@ -307,7 +307,7 @@ header .row .col-md-7 {
 }
 
 .section-1 .row .col-md-6 .pray img {
-  
+
   width: 80%;
   border-radius: 0.2em;
 }
@@ -368,14 +368,14 @@ header .row .col-md-7 {
   .carousel-item img {
     height: 30.25vw;
     width:50vw;
-  
+
   }
   @media (max-width:800px)
   {
     .carousel-item img {
       height: 60.25vw;
       width:100vw;
-    
+
     }
   }
 
@@ -465,8 +465,8 @@ header .row .col-md-7 {
 .cards div {
   padding: 0;
   margin: 0;
-  
-  
+
+
 }
 
 .cards .title {
@@ -476,7 +476,7 @@ header .row .col-md-7 {
   color: #0dcaf0;
   border: 2px solid #ffffff;
   border-radius: 25px 25px 0px 0px;
-  
+
 }
 
 .card .card-text {
@@ -484,21 +484,21 @@ header .row .col-md-7 {
   color: #ffffff;
   margin-top: 5px;
   border-top: 2px solid #ffffff;
-  
-  
+
+
 }
 
 .card-body .pricing {
 
   border-top-right-radius: 20vmin;
   border-top-left-radius: 20vmin;
-  
+
 }
 
 .card-body .pricing > h1 {
   font-size: 10vmin;
   padding: 1em 0.5em;
-  
+
 }
 
 
@@ -582,7 +582,7 @@ footer .column i + i {
     position: fixed;
     z-index: 100;
     transition-delay: 2s ;
-    
+
   }
 
 
@@ -640,7 +640,7 @@ width: 200px;
 }
 /* CONTACT */
 .footerleft {
-          
+
   color: #f4f4f4;
   padding: 50px 10px 10px 40px;
   border: 2px solid #f4f4f4;
@@ -665,7 +665,7 @@ padding: 50px 10px 20px 10px;
 border: 1px solid #ccc;
 border-radius: 25px;
 }
-/* MENU LINKS */      
+/* MENU LINKS */
 a {
   text-decoration: none;
 }
@@ -696,7 +696,7 @@ a {
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 36.25%; /* 16:9 aspect ratio */
   }
   .iframe-container iframe {
     position: absolute;
@@ -714,7 +714,7 @@ a {
   font-style: normal;
   color: #f4f4f4;
   font-size: 50px;
-} 
+}
 
 .card-box {
   border-left: 2px solid #ffffff;
@@ -738,7 +738,7 @@ a {
 
 .blink-button span {
   display: inline-block;
-  
+
 }
 
 .blink-button:hover {
@@ -756,7 +756,7 @@ a {
 
 .blink-button span {
   display: inline-block;
-  
+
 }
 
 /* TICKET REGISTERATION */
@@ -781,10 +781,10 @@ padding: 20px;
 
 .aithonevent-dot {
   position: relative;
-  flex: 0 0 20px; 
+  flex: 0 0 20px;
   height: 20px;
   border-radius: 50%;
-  background-color: #00ccff; 
+  background-color: #00ccff;
   margin-right: 10px;
   top:40px;
 }
@@ -825,9 +825,9 @@ padding: 20px;
   content: '';
   position: absolute;
   top: 0;
-  left: 10px; 
-  width: 2px; 
-  height: 100%; 
+  left: 10px;
+  width: 2px;
+  height: 100%;
   background-color: #00ccff;
 }
 
@@ -862,10 +862,10 @@ padding: 20px;
     content: '';
     position: absolute;
     top: 0;
-    left: 10px; 
+    left: 10px;
     transform: translateX(150px);
-    width: 2px; 
-    height: 100%; 
+    width: 2px;
+    height: 100%;
     background-color: #00ccff;
   }
   .aithonday:before {
@@ -883,7 +883,7 @@ padding: 20px;
     position: relative;
     max-width: 800px;
     padding-left: 150px;
-    
+
   }
   .aithonday {
     display: flex;
@@ -980,7 +980,8 @@ padding: 20px;
     width: 100%;
     height: 370px;
     align-content: center;
-    
+
   }
 }
 /* TIMELINE */
+}
