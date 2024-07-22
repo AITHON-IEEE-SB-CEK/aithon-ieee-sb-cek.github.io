@@ -52,6 +52,7 @@ section {
 
 .navbar-links {
   height: 100%;
+  margin-right:5vmin;
 }
 
 .navbar-links ul {
@@ -65,7 +66,7 @@ section {
 }
 
 .navbar-links li a {
-  margin-top: 0.2rem;
+  margin-top: 0.1rem;
   display: block;
   text-decoration: none;
   color: white;
@@ -299,55 +300,113 @@ header .row .col-md-7 {
 
 
 /********** section 1 **************/
-.section-1 {
-  padding: 5rem 0vmin;
-  padding-bottom: 15rem;
-  /* background-color:#060415 */
+/* .section-1 {
+  padding: 5rem;
+  display:flex;
+  height: 800px;
+  flex-wrap: wrap;
   background-color: #000000;
 }
 
-.section-1 .row .col-md-6 .pray img {
+.section-1 .row .col-12 .pray img {
 
-  width: 80%;
+  width:80vmin;
   border-radius: 0.2em;
 }
 
-.section-1 .row .col-md-6:last-child {
+.section-1 .row .col-12:last-child {
   position: relative;
 }
 
-.section-1 .row .col-md-6 .panel {
+.section-1 .row .col-12 .panel {
   position: absolute;
   top: 7vmin;
   left: -18vmin;
-  /* background: rgb(17, 15, 15); */
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   background-color: #000000;
   border-radius: 3px;
   text-align: left;
   padding: 13vmin 5vmin 20vmin 10vmin;
-  /* box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2); */
   font-family: "Montserrat";
   z-index: 1;
-}
+} */
 
-.section-1 .row .col-md-6 .panel h1 {
+/* .section-1 .row .col-12 .panel h1 {
   font-weight: bold;
   padding: 0.4em 0;
   color: white;
   font-size: 2em;
 }
 
-.section-1 .row .col-md-6 .panel p {
+.section-1 .row .col-12 .panel p {
   font-size: 0.9em;
   color: rgb(255, 255, 255);
 }
 @media (max-width:800px)
 {
-  .section-1 .row .col-md-6 .panel p {
+  .section-1 .row .col-12 .panel p {
     font-size:3vmin;
   }
+} */
+
+.section-1 {
+  padding: 2 2 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1000px;
+  background-color: #000000;
 }
+
+.section-1 .pray img {
+  width: 80vmin;
+  border-radius: 0.2em;
+  padding:  5 0 5vmin;
+  margin-top: 10vmin;
+}
+
+.section-1 .panel {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  background-color: #000000;
+  border-radius: 3px;
+  text-align: left;
+  padding: 2rem;
+  font-family: "Montserrat";
+  z-index: 1;
+  margin-top: 50px;
+}
+
+.section-1 .panel h1 {
+  font-weight: bold;
+  padding:0;
+  color: white;
+  font-size: 2em;
+}
+
+.section-1 .panel p {
+  font-size: 0.9em;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 800px) {
+  .section-1 {
+    padding: 0%;
+    height: auto;
+  }
+  
+  .section-1 .panel {
+    padding: 1rem;
+  }
+
+  .section-1 .panel p {
+    font-size: 3vmin;
+  }
+  ..section-1 .panel h1 {
+    padding: 0.4em 0;
+  }
+}
+
+
 
 /*  AITHON 1.0  */
 
@@ -574,7 +633,7 @@ footer .column i + i {
 
   #pre-loader
   {
-    background: #000000 url("../pre-loader.gif") no-repeat center center;
+    background: #000000 url("../preloader gif.gif") no-repeat center center;
     background-size:10%;
     height: 100vh;
     width: 100vw;
@@ -695,7 +754,7 @@ a {
 .iframe-container {
     position: relative;
     width: 100%;
-    height: 0;
+    height: 100vmin;
     padding-bottom: 36.25%; /* 16:9 aspect ratio */
   }
   .iframe-container iframe {
@@ -705,6 +764,15 @@ a {
     width: 100%;
     height: 100%;
     border: 0;
+    pointer-events: none;
+  }
+
+  @media(max-width:800px) {
+    .iframe-container {
+     pointer-events: none;
+     height: 70vmin;
+     margin-bottom: 3vmin;
+    }
   }
 
 
@@ -764,8 +832,15 @@ a {
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #000000;
-padding: 20px;
 
+
+}
+@media(max-width:800px){
+#Schedule{
+  padding-top: 5vmin;
+  
+}
+ 
 }
 
 .aithontimeline {
@@ -854,8 +929,18 @@ padding: 20px;
   border-left: 2px solid #00ccff;
   background-color: rgb(0, 0, 0);
   border-radius: 25px 25px 25px 25px;
+  color: white;
 }
-
+.aithonday-content-2 {
+  padding: 10px;
+  border-top: 2px solid #00ccff;
+  border-right: 2px solid #00ccff;
+  border-bottom: 2px solid #00ccff;
+  border-left: 2px solid #00ccff;
+  background-color: rgb(0, 0, 0);
+  border-radius: 25px 25px 25px 25px;
+  color: white;
+}
 
 @media (min-width:768px) {
   .aithonevent:before {
@@ -908,6 +993,16 @@ padding: 20px;
     border-radius: 25px 25px 25px 25px;
     margin-left: -290px; /* Move content to the left */
   }
+  .aithonday-content-2 {
+    padding: 10px;
+    border-top: 2px solid #00ccff;
+    border-right: 2px solid #00ccff;
+    border-bottom: 2px solid #00ccff;
+    border-left: 2px solid #00ccff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px 25px 25px 25px;
+    margin-left: -320px;
+    left: -50px;
 }
 
 .aithonday-time {
